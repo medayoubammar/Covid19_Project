@@ -1,0 +1,138 @@
+body {
+    margin: 0px;
+
+}
+
+
+
+/* Styling Navbar and inputs */
+/****************************/
+.navbar-brand-text {
+
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.19);
+
+}
+
+.search-btn {
+    color: #FFB80B;
+    border-color: #FFB80B;
+}
+
+
+
+.search-btn:active {}
+
+.search-btn:active {
+    background-color: #FFB80B !important;
+    border-color: #FFB80B !important;
+    box-shadow: 0 1px 2px 0 #FFB80B, 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+
+}
+
+.search-btn:active:focus {
+    color: #ffffff;
+    background-color: #161617;
+    border-color: #494F57;
+}
+
+.form-control:focus {
+    border-color: #FFB80B;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.has-error .form-control:focus {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+/*End of Styling Navbar and inputs*/
+
+
+/* Styling Browse Page/ recipes.html */
+/****************************/
+#main-body {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#categories {
+    padding: 30px;
+
+    width: 100vw;
+    background: linear-gradient(#aabaf0, #36f877);
+
+}
+
+#search-results {
+    padding: 30px;
+    max-height: 100vh;
+    overflow-y: scroll;
+
+}
+
+.categ-name {
+    margin-bottom: 20px;
+}
+
+.search-card {
+
+    height: 170px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px;
+}
+
+.search-card:hover {
+    transform: scale(1.019);
+    transition: transform 0.4s;
+    cursor: pointer;
+}
+
+@media (max-width:1200px) {
+    .search-card {
+        height: 500px;
+    }
+
+    .rec-photo {
+        height: 130px;
+        width: 150px;
+    }
+}
+
+.rec-thumb {
+    height: 130px;
+    width: 150px;
+    vertical-align: center;
+}
+
+.rec-details {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.rec-title {
+    font-size: 0.8em;
+}
+
+.rec-desc {
+    color: #7F7F7F;
+    font-size: 0.7em;
+}
+
+.rec-infos {
+    color: #7F7F7F;
+    font-size: 0.75em;
+}
+
+.categ-name h4:hover {
+    cursor: pointer;
+}
+
+.sub-categ {
+    display: none;
+}
+
+/*End of Styling Browse Page/ recipes.html*/
